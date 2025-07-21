@@ -3,5 +3,9 @@
     <style name="Base.Theme.ConferenceApp" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="titleCentered">true</item>
+        <item name="android:titleTextColor">@color/white</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="navigationIconTint">@color/white</item>
     </style>
 </resources>
