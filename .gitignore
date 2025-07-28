@@ -7,12 +7,12 @@
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
-.idea/deploymentTargetSelector.xml
+/.idea/deploymentTargetSelector.xml
 .DS_Store
 /build
 /captures
 .externalNativeBuild
 .cxx
 local.properties
-.idea/vcs.xml
-.idea/gradle.xml
+/.idea/vcs.xml
+/.idea/gradle.xml
