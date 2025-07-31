@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ConferenceApp"
+rootProject.name = "Rails World"
 include(":app")
