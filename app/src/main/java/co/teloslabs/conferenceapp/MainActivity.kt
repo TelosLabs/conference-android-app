@@ -41,7 +41,7 @@ class MainActivity : HotwireActivity() {
     override fun navigatorConfigurations() = listOf(
         NavigatorConfiguration(
             name = "main",
-            startLocation = baseURL,
+            startLocation = "$baseURL/user_session/new",
             navigatorHostId = R.id.main_nav_host
         )
     )

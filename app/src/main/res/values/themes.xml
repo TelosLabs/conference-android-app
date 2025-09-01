@@ -4,9 +4,21 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="titleCentered">true</item>
-        <item name="android:titleTextColor">@color/purple</item>
-        <item name="titleTextColor">@color/purple</item>
-        <item name="navigationIconTint">@color/purple</item>
+        <item name="android:titleTextColor">@color/white</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="navigationIconTint">@color/white</item>
+        <item name="toolbarStyle">@style/Widget.ConferenceApp.Toolbar</item>
+        <item name="colorSurface">@color/purple</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+    </style>
+
+    <style name="Widget.ConferenceApp.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/purple</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="navigationIconTint">@color/red</item>
+        <item name="subtitleTextColor">@color/white</item>
     </style>
 
     <style name="Theme.ConferenceApp" parent="Base.Theme.ConferenceApp" />
